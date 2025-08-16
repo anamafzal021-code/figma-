@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    margin-top: 80px;
+}
+
+ 
+.montserrat h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.text h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #252525;
+  max-width: 610px;
+  max-height: 145px;
+  line-height: 3rem;
+  margin-top: 0;  
+  margin-bottom: 15px;  
+  margin-left: auto;  
+  margin-right: auto;
+
+  
+}
+.para{
+    max-width: 607px;
+    max-height: 108px;
+    color: #252525;
+    opacity: 0.8;
+    margin-top: 0;  
+    margin-bottom: 15px;  
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+.btn{
+    width: fit-content;
+    height: auto;
+    font-size: 18px;
+    padding: 18px 48px;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    background-color: #252525;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif; 
+    cursor: pointer; 
+    margin: 0 auto;
+}
+.btn:hover {
+   background-color: #333030;
+   transform: scale(1.05); /* thoda bara ho jaye */
+   transition: all 0.3s ease; /* smooth animation */
+}
+
+.text{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.images{
+    width: 316px;
+    height: 288px;
+    border-radius: 16px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 64px;
+    gap: 16px;
+}
+
+@media (max-width: 380px){
+    .images{
+        width: 280px;
+        height: 200px;
+    }
+    .text h1{
+        max-width: 310px;
+        max-height: 105px;
+        line-height: 2.5rem;
+    }
+}
